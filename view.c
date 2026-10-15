@@ -43,7 +43,7 @@ void square_name(Int32 value,char* name,Int32* color) {
     case 25:strcpy(name,"Up Stairs"); break;
     case 26:strcpy(name,"Chair"); break;
     case 27:strcpy(name,"Table"); break;
-    case 28:strcpy(name,"Merchant"); break;
+    case 28:strcpy(name,"Merchant (No Sales)"); break; // merchant you CANNOT interact with
     case 29:strcpy(name,"Bed"); break;
     case 30:strcpy(name,"Shelves"); break;
     case 31:strcpy(name,"Gateway"); break;
@@ -60,6 +60,7 @@ void square_name(Int32 value,char* name,Int32* color) {
     case 99:strcpy(name,"Food"); break;
     case 176:strcpy(name,"Rock"); break;
     case 178:strcpy(name,"Rock"); break;
+    case 520:strcpy(name,"Merchant"); break; // merchant you CAN interact with
     case 536:strcpy(name,"Gacha Machine"); break;
     case 901:strcpy(name,"Altar"); break;
     case 902:strcpy(name,"Dull Altar"); break;
